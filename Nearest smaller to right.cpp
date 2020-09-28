@@ -22,13 +22,13 @@ int main()
 		{
 			v.push_back(-1);
 		}
-		else if(s.size()>0 && s.top()>a[i])
+		else if(s.size()>0 && s.top()<a[i])
 		{
 			v.push_back(s.top());
 		}
-		else if(s.size()>0 && s.top()<=a[i] )
+		else if(s.size()>0 && s.top()>=a[i] )
 		{
-			while(s.size()>0 && s.top()<=a[i])
+			while(s.size()>0 && s.top()>=a[i])
 			{
 				s.pop();
 			}
@@ -44,7 +44,7 @@ int main()
 		}
 		s.push(a[i]);
 	}
-	cout<<"Nearest Greatest Element to the right: ";
+	cout<<"Nearest Smallest Element to the right: ";
 	for(i=v.size()-1;i>=0;i--)
 		cout<<v[i]<<" ";
 	

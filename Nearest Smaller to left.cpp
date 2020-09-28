@@ -16,19 +16,19 @@ int main()
 	stack <int> s;
 	vector <int> v;
 	
-	for(i=n-1;i>=0;i--)
+	for(i=0;i<n;i++)
 	{
 		if(s.size()==0)
 		{
 			v.push_back(-1);
 		}
-		else if(s.size()>0 && s.top()>a[i])
+		else if(s.size()>0 && s.top()<a[i])
 		{
 			v.push_back(s.top());
 		}
-		else if(s.size()>0 && s.top()<=a[i] )
+		else if(s.size()>0 && s.top()>=a[i] )
 		{
-			while(s.size()>0 && s.top()<=a[i])
+			while(s.size()>0 && s.top()>=a[i])
 			{
 				s.pop();
 			}
@@ -44,8 +44,8 @@ int main()
 		}
 		s.push(a[i]);
 	}
-	cout<<"Nearest Greatest Element to the right: ";
-	for(i=v.size()-1;i>=0;i--)
+	cout<<"Nearest Smallest Element to the left: ";
+	for(i=0;i<v.size();i++)
 		cout<<v[i]<<" ";
 	
 	
