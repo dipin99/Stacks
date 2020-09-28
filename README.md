@@ -23,6 +23,12 @@ For example, consider the following histogram with 7 bars of heights {6, 2, 5, 4
 
 ### 7. Rain Trapping Problem
 Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+We can trap 2 units of water in the middle gap.
+
+Input: arr[]   = {3, 0, 2, 0, 4}
+Output: 7
+Explanation:
+Structure is like below
 
 ![Untitled-Diagram811](https://user-images.githubusercontent.com/43874027/94446251-042ad380-01c6-11eb-9d1c-b23e7dc38418.png)
 
