@@ -1,5 +1,7 @@
 # Stacks
 Problem statements which can be solved using Stacks.
+Refer to this youtube playlist for the explanation of all the belowmentioned problems.
+https://www.youtube.com/watch?v=P1bAPZg5uaE&list=PL_z_8CaSLPWdeOezg68SKkeLN4-T_jNHd
 ### 1. Nearest Greater to Left: 
     Returns an array with nearest greatest element to the the left of each element of the input array
 ### 2. Nearest Greater to Right: 
