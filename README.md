@@ -20,7 +20,11 @@ Find the largest rectangular area possible in a given histogram where the larges
 For example, consider the following histogram with 7 bars of heights {6, 2, 5, 4, 5, 1, 6}. The largest possible rectangle possible is 12 (see the below figure, the max area rectangle is highlighted in red)
 
 <img width="279" alt="histogram1" src="https://user-images.githubusercontent.com/43874027/94430331-531a3e00-01b1-11eb-84f6-d7c03e945f18.png">
+
 ### 7. Rain Trapping Problem
 Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+
 ![Untitled-Diagram811](https://user-images.githubusercontent.com/43874027/94446251-042ad380-01c6-11eb-9d1c-b23e7dc38418.png)
+
+
 
